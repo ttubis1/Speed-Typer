@@ -45,13 +45,13 @@ let time = 10;
 let difficulty =
   localStorage.getItem('difficulty') !== null
     ? localStorage.getItem('difficulty')
-    : 'medium';
+    : 'easy';
 
 // Set difficulty select value
 difficultySelect.value =
   localStorage.getItem('difficulty') !== null
     ? localStorage.getItem('difficulty')
-    : 'medium';
+    : 'easy';
 
 // Focus on text on start
 text.focus();
